@@ -61,28 +61,6 @@ It allows users to input a **job description** and automatically finds the most 
 - PyPDF2
 - Joblib
 
----
-
-## 📂 Project Structure
-Resume-Screening-and-Matching-AI/
-│
-├── data/
-│ ├── Accountant/
-│ ├── Data_Scientist/
-│ └── ...
-│
-├── app.py
-├── model.py
-├── preprocessing.py
-│
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-└── (generated files - ignored)
-├── processed_resumes.csv
-├── vectorizer.pkl
-└── tfidf_matrix.pkl
 
 ---
 
