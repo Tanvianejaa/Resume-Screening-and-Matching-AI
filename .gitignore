@@ -3,3 +3,6 @@ __pycache__/
 *.pkl
 *.csv
 .DS_Store
+
+# ✅ Allow this specific file
+!processed_resumes.csv

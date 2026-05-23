@@ -31,27 +31,28 @@ It allows users to input a **job description** and automatically finds the most 
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure
 
+```
 Resume-Screening-and-Matching-AI/
 │
-├── data/                     # Folder containing categorized resume PDFs
+├── data/
 │   ├── Accountant/
 │   ├── Data_Scientist/
 │   └── ...
 │
-├── app.py                    # Streamlit frontend application
-├── model.py                  # Cosine similarity matching logic
-├── preprocessing.py          # Text extraction & NLP preprocessing
+├── app.py
+├── model.py
+├── preprocessing.py
 │
-├── requirements.txt          # Project dependencies
-├── README.md                 # Project documentation
-├── .gitignore                # Ignore unnecessary files
+├── requirements.txt
+├── README.md
+├── .gitignore
 │
 └── (generated files - ignored)
     ├── processed_resumes.csv
     ├── vectorizer.pkl
     └── tfidf_matrix.pkl
+```
 
 ### 1️⃣ Clone the repository
 ```bash
